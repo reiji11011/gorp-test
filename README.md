@@ -17,3 +17,11 @@ sqlite3 /tmp/post_db.bin
  select * from posts;
 .exit
 ```
+
+# 初期設定
+```shell
+go get 	github.com/go-gorp/gorp
+```
+
+# 参考
+https://github.com/go-gorp/gorp
